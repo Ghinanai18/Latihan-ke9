@@ -1,0 +1,45 @@
+p:hover {
+            color: yellow;
+            background-color: blue;
+        }
+        a:hover {
+             color: green;
+        }
+        a :active {
+            color: purple;
+        }
+        #dikunjungi:visited{
+            color: aqua;
+        }
+        
+
+li:nth-child(odd){
+    background-color:pink;
+}
+li:nth-child(even){
+    background-color: blue;
+}
+
+li:nth-child(3n){
+    color: green;
+}
+li:nth-child(4n){
+    color: blueviolet;
+}
+li:nth-child(n + 4){
+    color: tomato;
+    background-color: aqua;
+}
+
+/*body{
+    color: grey;
+}
+a{
+    color: grey;
+}
+*{
+    color: grey;
+}
+li{
+    color: grey;
+}*/

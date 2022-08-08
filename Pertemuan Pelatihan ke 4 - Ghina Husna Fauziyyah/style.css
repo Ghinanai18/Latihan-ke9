@@ -1,0 +1,37 @@
+/*li:nth-child(2){
+    color: bisque;
+}
+li:nth-child(7){
+    color: green;
+}*/
+
+/*nth-child even/odd*/
+/*:nth-child(odd){
+    background-color: red;
+}
+li:nth-child(even){
+    background-color: blue;
+}*/
+/*nth-child formula*/
+/*li:nth-child(3n){
+    color: green;
+}
+li:nth-child(4n){
+    color: blueviolet;
+}*/
+/*li:nth-child(n + 4){
+    color: tomato;
+    background-color: aqua;
+}*/
+body{
+    color: green;
+}
+a{
+    color: green;
+}
+*{
+    color: green;
+}
+li{
+    color: green;
+}

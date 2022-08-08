@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        div{
+            background-color: lightblue;
+            height: 600px;
+        }
+        p{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        #box-1{
+            /*margin-bottom: 30px;*/
+            /*margin: auto;*/
+            /*margin-bottom: 200px;*/
+            margin-right: 20px;
+        }
+        #box-2{
+            /*margin-top 40px;*/
+            margin-left: 20px;
+            padding-left: 30px;
+            padding-top: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="box-1">ini box satu</p>
+        <p id="box-2">ini box dua</p>
+    </div>
+    
+</body>
+</html>

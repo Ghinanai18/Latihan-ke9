@@ -1,0 +1,49 @@
+/*tag element + class = 1 + 10 = 11*/
+
+/*?p{
+    color:blue !important;
+}*/
+
+/*p.text-merah{
+    color: red;
+}*/
+
+/*a{
+    color: red;
+    background-color: gray;
+}
+
+span{
+    color: red;
+    background-color: gray;
+}*/
+
+/*p, a, span{
+    color: red;
+    background-color: gray;
+}*/
+
+/*div > p{
+    color: green;
+}*/
+
+/*h1 + h2{
+    background-color: gray;
+}*/
+
+h1[title]{
+    color: red;
+}
+
+h1[title="judul"]{
+    color: green;
+}
+
+.content{
+    font-size: 20px;
+}
+
+a:hover{
+    color: red;
+    font-size: 40px;
+}

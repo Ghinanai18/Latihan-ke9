@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: aliceblue;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin-left: 20px;
+}
+ul{
+    margin-right: 20px;
+    padding: 0;
+    /*background-color: aqua;*/
+    width: 300px;
+    display: flex;
+    justify-content:space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}

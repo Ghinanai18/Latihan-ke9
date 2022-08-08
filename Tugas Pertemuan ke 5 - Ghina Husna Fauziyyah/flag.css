@@ -1,0 +1,33 @@
+div{
+    width: 300px;
+    height: 300px;
+}
+.container{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.satu{
+    background-color:green;
+    position:absolute;
+    z-index: 1;
+    margin-right: 200px;
+ 
+}
+.dua{
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+    background-image: url(https://img.pngio.com/fileyellow-starpng-wikipedia-yellow-star-png-300_300.png);
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tiga{
+    background-color: yellow;
+    position: absolute;
+    z-index: 2;
+    margin-left: 200px;
+}

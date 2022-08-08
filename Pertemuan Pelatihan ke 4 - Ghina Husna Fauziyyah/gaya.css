@@ -1,0 +1,18 @@
+p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform:lowercase;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+h4{
+    word-spacing: 10px;/*jarak kata*/
+    line-height: 30px;/*jarak baris*/
+}

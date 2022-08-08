@@ -1,0 +1,23 @@
+        h1 + h2 { 
+                color: red;
+        }
+        
+        div h1 { 
+                color: green;
+        }
+        .abu{
+                color: black;
+        }
+        
+        #main-content h1{
+                color: blue;
+        }
+        .keren{
+                color: gray;
+        }
+        .sub-content h1{
+                color : red !important;
+        }
+        .sub-content > p{
+                background-color: gray;
+        }
